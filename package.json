@@ -4,7 +4,8 @@
   "description": "An app server to serve thick-client (only) applications. Supports user-defined feature flags for conditional distribution.",
   "main": "index.js",
   "dependencies": {
-    "connect": "3.3.3"
+    "connect": "3.3.3",
+    "serve-static": "1.7.1"
   },
   "devDependencies": {},
   "scripts": {},
