@@ -25,5 +25,5 @@ bower_components/
 # Project specific files
 # -----------------------------------------------------------------------------
 
-releases/**/*
-!releases/.gitkeep
+features/**/*
+!features/.gitkeep
