@@ -22,7 +22,7 @@ var getFeatureForAccount = function(id) {
 }
 
 var delegateAccount = function(req, res, next) {
-  var feature = getFeatureForAccount();
+  var feature = getFeatureForAccount(req.cookies['account-id']);
   req.url = '/' + feature + req.url;
   next();
 };
