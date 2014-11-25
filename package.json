@@ -1,7 +1,7 @@
 {
   "name": "shunter",
   "version": "0.0.1",
-  "description": "An app server to serve thick-client (only) applications. Supports user-defined feature flags for conditional distribution.",
+  "description": "A Node.js app server to serve thick-client (only) applications. Supports user-defined feature flags for conditional distribution.",
   "main": "index.js",
   "dependencies": {
     "connect": "3.3.3",
