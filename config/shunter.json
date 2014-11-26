@@ -1,0 +1,6 @@
+{
+  "manifest_file": "config/flags.json",
+  "features_path": "features",
+  "feature_root": "current",
+  "port": 3000
+}
